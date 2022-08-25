@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -29,6 +36,11 @@
             <li><a href="#" class="nav-link">About</a></li>
             <li><a href="#" class="nav-link">Contact</a></li>
           </ul>
+          <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
         </nav>
       </div>
     </header>
@@ -137,7 +149,7 @@
               alt="image of a doctor wearing nose mask"
               class="contact-image"
             />
-            <img src="assets/images/tweet.png" class="tweet-image" alt="" />
+            <!-- <img src="assets/images/tweet.png" class="tweet-image" alt="" /> -->
           </div>
           <div class="contact-text-box">
             <h1>
@@ -177,10 +189,13 @@
             </div>
             <div class="comment-rating">
               <div class="commenter">
-                <img
-                  src="assets/images/Ellipse 8.png"
-                  alt="A picture of a lady"
-                />
+                <div class="commenter-image">
+                  <img
+                    src="assets/images/Ellipse 8.png"
+                    alt="A picture of a lady"
+                  />
+                </div>
+
                 <h4>Helen Smith</h4>
               </div>
               <div class="rating">
@@ -210,10 +225,13 @@
             </div>
             <div class="comment-rating">
               <div class="commenter">
-                <img
-                  src="assets/images/Ellipse 9.png"
-                  alt="A picture of a lady"
-                />
+                <div class="commenter-image">
+                  <img
+                    src="assets/images/Ellipse 9.png"
+                    alt="A picture of a lady"
+                  />
+                </div>
+
                 <h4>Dan Smith</h4>
               </div>
               <div class="rating">
@@ -268,7 +286,7 @@
             <form>
               <div class="input">
                 <input type="text" placeholder="Enter your Email" />
-                <a class="btn" href="#">Submit</a>
+                <a class="btn-sub" href="#">Submit</a>
               </div>
             </form>
           </div>
@@ -327,5 +345,6 @@
         </p>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
